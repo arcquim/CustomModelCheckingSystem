@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arcquim.system.android.CheckPropertyActivity"
+    android:background="@color/windowBackground">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/propertyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/propertyText"
+        android:textSize="@dimen/text_size"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/little_margin"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:layout_below="@+id/app_bar"
+        />
+
+    <EditText
+        android:id="@+id/propertyEditText"
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/edit_text_margin_left_right"
+        android:layout_marginRight="@dimen/edit_text_margin_left_right"
+        android:layout_below="@+id/propertyTextView"
+        android:background="@drawable/old_edit_text"
+        android:layout_marginTop="@dimen/little_margin"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        />
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/propertyEditText"
+        android:text="@string/checkButtonText"
+        android:layout_marginLeft="@dimen/edit_text_margin_left_right"
+        android:layout_marginRight="@dimen/edit_text_margin_left_right"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textColor="@color/textColor"/>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:layout_below="@+id/checkButton"
+        android:layout_marginLeft="@dimen/edit_text_margin_left_right"
+        android:layout_marginRight="@dimen/edit_text_margin_left_right"
+        android:layout_marginTop="@dimen/margin_top">
+        <TableRow>
+            <TextView
+                android:text="@string/numberText"
+                android:padding="3dip"
+                android:gravity="center"/>
+            <TextView
+                android:text="@string/predicateText"
+                android:padding="3dip"
+                android:gravity="center"/>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

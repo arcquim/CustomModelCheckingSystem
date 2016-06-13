@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/changeTitleMenuItem"
+        android:title="@string/changeTitleMenuItem"></item>
+    <item
+        android:id="@+id/activateMenuItem"
+        android:title="@string/activateMenuItem"></item>
+    <item
+        android:id="@+id/checkPropertyMenuItem"
+        android:title="@string/checkPropertyMenuItem"></item>
+</menu>

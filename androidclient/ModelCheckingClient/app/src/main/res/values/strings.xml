@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ModelCheckingClient</string>
+    <string name="welcomePageTitle">Model\n Checking System</string>
+    <string name="yourEmail">Your email</string>
+    <string name="emailHint">Email address</string>
+    <string name="buttonEnterText">Enter</string>
+    <string name="title_activity_projects">Projects</string>
+    <string name="title_activity_project_creation">New project</string>
+    <string name="projectTitle">Project title</string>
+    <string name="createButtonText">Create</string>
+    <string name="modelText">Model</string>
+    <string name="propertyText">Property</string>
+    <string name="resultText">Result</string>
+    <string name="enterNewNameText">Enter new name</string>
+    <string name="nextButtonText">Next</string>
+    <string name="atomicPredicatesText">Atomic predicates</string>
+    <string name="addButtonText">Add</string>
+    <string name="numberText">Number</string>
+    <string name="predicateText">Predicate</string>
+    <string name="checkButtonText">Check</string>
+    <string name="historyLabelText">History</string>
+
+    <!-- menu titles-->
+    <string name="changeTitleMenuItem">Change title</string>
+    <string name="activateMenuItem">Activate</string>
+    <string name="checkPropertyMenuItem">Check property</string>
+
+</resources>

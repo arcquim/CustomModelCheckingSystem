@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arcquim.system.android.HistoryItemActivity"
+    android:background="@color/windowBackground">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!--TextView
+        android:id="@+id/projectNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/text_size"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_below="@+id/app_bar"></TextView-->
+
+    <TextView
+        android:id="@+id/modelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/text_size"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center"
+        android:layout_below="@+id/app_bar"
+        android:text="@string/modelText"></TextView>
+
+    <TextView
+        android:id="@+id/modelValueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/modelTextView"
+        android:layout_marginRight="@dimen/edit_text_margin_left_right"
+        android:layout_marginLeft="@dimen/edit_text_margin_left_right"
+        android:background="@color/textColor"
+        android:layout_marginTop="@dimen/margin_top"
+        android:padding="@dimen/padding"
+        />
+
+    <TextView
+        android:id="@+id/propertyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/text_size"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_below="@+id/modelValueTextView"
+        android:text="@string/propertyText"></TextView>
+
+    <TextView
+        android:id="@+id/propertyValueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/propertyTextView"
+        android:layout_marginRight="@dimen/edit_text_margin_left_right"
+        android:layout_marginLeft="@dimen/edit_text_margin_left_right"
+        android:background="@color/textColor"
+        android:layout_marginTop="@dimen/margin_top"
+        android:padding="@dimen/padding"
+        />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/text_size"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center"
+        android:layout_below="@+id/propertyValueTextView"
+        android:text="@string/resultText"></TextView>
+
+    <TextView
+        android:id="@+id/resultValueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultTextView"
+        android:layout_marginRight="@dimen/edit_text_margin_left_right"
+        android:layout_marginLeft="@dimen/edit_text_margin_left_right"
+        android:background="@color/textColor"
+        android:layout_marginTop="@dimen/margin_top"
+        android:padding="@dimen/padding"
+        />
+</RelativeLayout>
