@@ -16,8 +16,8 @@ import javax.mail.internet.MimeMessage;
  */
 public class SmtpMailSender implements MailSender {
     
-    private static final String USERNAME = "modelcheckingsystem@gmail.com";
-    private static final String PASSWORD = ">Mg4639Vl.vE<tkltU>uG-eo*e[EJ7";
+    private static final String USERNAME = ""; //provide your gmail account
+    private static final String PASSWORD = ""; //provide your account password
     
     private static final String SMTP_AUTH_KEY = "mail.smtp.auth";
     private static final String SMTH_AUTH_VALUE = "true";
